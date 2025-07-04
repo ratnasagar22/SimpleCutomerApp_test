@@ -93,9 +93,7 @@
 // }
 
 pipeline {
-    agent {
-        label 'master'  // Adjust if your agent label is different
-    }
+    agent any
 
     tools {
         // Maven tool name must match what's configured in Jenkins > Global Tool Configuration
