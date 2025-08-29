@@ -27,7 +27,7 @@
 //         // Repository where we will upload the artifact
 //         NEXUS_REPOSITORY = "SimpleCustomerApp"
 //         // Jenkins credential id to authenticate to Nexus OSS
-//         NEXUS_CREDENTIAL_ID = "nexus_keygen"
+//         NEXUS_CREDENTIAL_ID = "admin"
 //     }
 //     stages {
 //         stage("clone code") {
