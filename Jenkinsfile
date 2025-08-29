@@ -97,7 +97,7 @@ pipeline {
 
     tools {
         // Maven tool name must match what's configured in Jenkins > Global Tool Configuration
-        maven 'MVN_HOME'
+        maven 'jenkins file'
     }
 
     environment {
